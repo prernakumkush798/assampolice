@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Of FIR</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background-image: url("C:/Users/dell/Desktop/assam/assam.jpg"); 
+			background-repeat: no-repeat;
+  			background-size: 800px 800px ;
+			background-position: center;
+			font-family: sans-serif;
+			margin-top: 40px;
+		}
+		.regform{
+			width: 800px;
+			background-color: rgb(0,0,0,6);
+			margin: auto;
+			color: #ffffff;
+			padding: 10px 0px 10px 0px;
+			text-align: center;
+			 border-radius:15px 15px 0px 0px; 
+		}
+		.main{
+			background-color: rgb(0,0,0,0.5);
+			width: 800px;
+			height: 800px;
+			margin: auto;
+		}
+		form{
+			padding: 10px;
+		}
+		#name{
+			width: 100%;
+			height: 100px;
+		}
+		.name{
+			margin-left: 25px;
+			margin-top: 30px;
+			width: 125px;
+			color: white;
+			font-size: 18px;
+			font-weight: 700;
+		}
+		.fname{
+			position: relative;
+			left: 200px;
+			top: -37px;
+			line-height: 40px;
+			border-radius: 6px;
+			padding:0 22px;
+			font-size: 16px; 
+
+		}
+		.lname{
+			position: relative;
+			left: 417px;
+			top: -80px;
+			line-height: 40px;
+			border-radius: 6px;
+			padding: 0 22px;
+			font-size: 16x;
+			color: #555;
+		}
+		.flabel{
+			position: relative;
+			color:#E5E5E5;
+			text-transform: capitalize;
+			font-size: 14px;
+			left: 203px;
+			top:-45px;
+		}
+		.llabel{
+			position: relative;
+			color:#E5E5E5;
+			text-transform: capitalize;
+			font-size: 14px;
+			left: 203px;
+			top:-45px;
+		}
+		
+		.radio{
+			position: relative;
+			left: 200px;
+			top: -37px;
+			line-height: 40px;
+			width: 532px;
+			border-radius: 6px;
+			padding: 0 22px;
+			font-size: 16px;
+			color: white;
+
+		}
+		.description{
+			position: relative;
+			left: 320px;
+			top: -140px;
+			line-height: 40px;
+			width: 400px;
+			border-radius: 6px;
+			padding: 0 22px;
+			font-size: 16x;
+			color: #555;
+		}
+		.desc{
+			position: relative;
+			left: 417px;
+			top: -140px;
+			line-height: 40px;
+			border-radius: 6px;
+			padding: 0 22px;
+			font-size: 16x;
+			color: white;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="regform"><h1>REGISTRATION OF FIR</h1></div>
+<div class="main">
+	<form>
+		<div id="name">
+			<h2 class="name">NAME</h2>
+			<input class="fname" type="text" name="fname"><br>
+			<label class="flabel">First Name</label>
+			<input class="lname" type="text" name="lname">
+			<label class="llabel">Last Name</label>
+		</div>	
+		<h2 class="name">GENDER</h2>
+		<label class="radio">
+		<input class="radio-" type="radio" name="gender">
+		<span class="checkmark">
+	MALE</label></span>
+	<label class="radio">
+		<input class="radio-" type="radio" name="gender">
+		<span class="checkmark">
+	FEMALE</label></span>
+	<label class="radio">
+		<input type="radio" name="gender">
+		<span class="checkmark">TRANSGENDER</span></label>
+	</label>
+	</label>
+		<h2 class="name">Crime Spot(Area)</h2>
+		<select name="district" class="area" >
+			<option>DISTRICT</option>
+			<option>Baska</option>
+     		 <option>Barpeta</option>
+             <option>Biswanath</option>
+             <option>Bongaigaon</option>
+             <option>Cachar</option>
+             <option>Charaideo</option>
+             <option>Chirang</option>
+             <option>Darrang</option>
+             <option>Dhemaji</option>
+             <option>Dhubri</option>
+              <option>Dibrugarh</option>
+              <option>Goalpara</option>
+             <option>Golaghat</option>
+             <option>Hailakandi</option>
+             <option>Hojai</option>
+             <option>Jorhat</option>
+             <option>Kamrup Metropolitan(Guwahati)</option>
+             <option>Kamrup (Rural)</option>
+             <option>Karbi Anglong</option>
+             <option>Karimganj</option>
+             <option>Kokrajhar</option>
+             <option>Lakhimpur</option>
+             <option>Majuli</option>
+             <option>Morigaon</option>
+             <option>Nagaon</option>
+             <option>Nalbari</option>
+             <option>Dima Hasao</option>
+             <option>Sivasagar</option>
+             <option>Sonitpur</option>
+              <option>South Salmara Mankachar</option>
+             <option>Tinsukia</option><option>Udalguri</option><option>West Karbi Anglong</option>
+		</select>  
+		<h2 class="name">CRIME</h2>
+		<select>
+		<option  value="crime">CRIME</option>
+		<option>Murder</option>
+		<option>Rape</option>
+		<option>Theft</option>
+		<option>Acid Attack</option>
+		<option>Missing Person</option></select>
+		<h2 class="desc">Crime description</h2>
+		<input type="text" name="description" class="description">
+
+
+
+</div>
+	</form>
+
+</body>
+</html>
